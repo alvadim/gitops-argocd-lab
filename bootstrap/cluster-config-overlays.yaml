@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/albertogd/gitops-argocd-lab.git
+      repoURL: https://github.com/alvadim/gitops-argocd-lab.git
       revision: main
       files:
         - path: "clusters/**/conf.yaml"
